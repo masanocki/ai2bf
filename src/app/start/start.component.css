@@ -1,0 +1,51 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.unauthorized,
+.authorized,
+.admin {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: #f44336;
+    margin-top: 10px;
+}
+
+.authorized p,
+.admin p {
+    margin: 0;
+}

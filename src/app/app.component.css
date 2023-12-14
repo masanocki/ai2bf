@@ -1,0 +1,46 @@
+header{
+    background-color: mediumaquamarine;
+    padding: 10px 15px;
+    margin: -0.5%;
+    display: flex;
+}
+.router-outlet{
+    min-height: 400px;
+    padding: 30px;
+}
+footer{
+    display: flex;
+    background-color: rgb(53, 138, 109);
+    color: white;
+    padding: 10px 10px;
+    margin: -0.5%;
+    font-size: xx-large;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font-size: x-large;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+}
+nav{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+a.logout {
+    display: inline-block;
+    padding: 5px;
+    background-color: #f44336;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a.logout:hover {
+    background-color: #d32f2f;
+}

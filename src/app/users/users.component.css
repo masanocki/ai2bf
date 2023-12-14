@@ -1,0 +1,41 @@
+main {
+    margin: 20px;
+    width: 50%;
+}
+
+h2 {
+  color: #333;
+}
+
+.users {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.role-badge {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.role-user {
+  background-color: #4caf50;
+  color: white;
+}
+
+.role-admin {
+  background-color: #f44336;
+  color: white;
+}
